@@ -74,34 +74,7 @@ Provides independent assurance over governance and control effectiveness.
 
 4. Enterprise AI Governance RACI
 
-Activity	ERA	AIGC	BO	EA	CYB	DG	PRIV	RISK	TO	ADT	IA
-Define AI strategy	A	C	C	R	C	C	C	C	C	I	I
-Maintain AI governance framework	I	A	C	R	R	R	R	R	C	I	I
-Register AI use case	I	I	A	C	I	C	C	I	R	R	I
-Initial AI risk classification	I	I	A	C	C	C	C	R	R	C	I
-AI risk assessment	I	C	A	C	C	C	C	R	R	C	I
-Architecture assessment	I	C	C	A/R	C	C	C	I	R	R	I
-Cybersecurity assessment	I	C	C	C	A/R	C	C	C	R	R	I
-Data assessment	I	C	C	C	C	A/R	C	C	R	R	I
-Privacy assessment	I	C	C	I	C	C	A/R	C	R	C	I
-Threat modelling	I	I	C	C	A	C	I	I	R	R	I
-Define technical controls	I	I	C	C	A	C	C	C	R	R	I
-Implement technical controls	I	I	I	C	C	C	C	I	A	R	I
-Tier 1 approval	I	I	A	C	I	I	I	I	R	C	I
-Tier 2 approval	I	I	A	R	C	C	C	C	R	I	I
-Tier 3 approval	I	A/R	C	C	C	C	C	C	I	I	I
-Tier 4 recommendation	C	A/R	C	C	C	C	C	C	I	I	C
-Tier 4 risk acceptance	A	R	C	C	C	C	C	C	I	I	I
-AI vendor assessment	I	C	A	C	R	R	R	C	R	C	I
-Pre-production assurance	I	A	C	R	R	C	C	C	R	R	I
-Production deployment	I	I	A	C	C	I	I	I	R	R	I
-Operational monitoring	I	I	A	I	C	C	I	C	R	R	I
-AI incident response	I	C	A	C	R	C	C	C	R	R	I
-Material AI incident escalation	A	R	C	C	R	C	C	R	C	I	I
-Periodic reassessment	I	C	A	R	R	R	R	R	R	C	I
-Control exception approval	C	A	C	C	R	C	C	R	C	I	I
-AI system retirement	I	I	A	C	C	R	C	I	R	R	I
-Independent AI governance assurance	I	I	I	I	I	I	I	C	I	I	A/R<img width="909" height="449" alt="image" src="https://github.com/user-attachments/assets/e0948126-d63f-4d45-8457-ca6ed393e050" />
+	A/R<img width="909" height="449" alt="image" src="https://github.com/user-attachments/assets/e0948126-d63f-4d45-8457-ca6ed393e050" />
 
 
 ⸻
