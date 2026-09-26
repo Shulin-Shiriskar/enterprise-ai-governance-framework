@@ -307,20 +307,8 @@ For higher-risk AI systems:
 
 Where governance functions disagree on whether an AI system should proceed, the matter follows the escalation path:
 
-AI Delivery / Technology Owner
-             |
-             v
-Specialist Governance Functions
-Architecture / Security / Data / Privacy / Risk
-             |
-             v
-AI Governance Committee
-             |
-             v
-Executive Risk Authority
-             |
-             v
-Board / Executive Leadership
+AI Delivery / Technology Owner -> Specialist Governance Functions
+Architecture / Security / Data / Privacy / Risk -> AI Governance Committee -> Executive Risk Authority -> Board / Executive Leadership
 
 The escalation process ensures unresolved risk is explicitly accepted or treated rather than implicitly transferred to delivery teams.
 
