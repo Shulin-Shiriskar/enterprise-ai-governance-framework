@@ -421,42 +421,46 @@ Detailed control mappings will be developed as separate artefacts within the rep
 
 15. Repository Structure
 
+## Repository Structure
+
+```text
 enterprise-ai-governance-framework/
-|
-+-- 01-governance/
-|   +-- ai-governance-framework.md
-|   +-- ai-principles.md
-|   +-- governance-operating-model.md
-|   +-- roles-and-raci.md
-|
-+-- 02-risk/
-|   +-- ai-risk-classification.md
-|   +-- ai-risk-assessment.md
-|   +-- ai-risk-register.xlsx
-|   +-- ai-use-case-assessment.md
-|
-+-- 03-policies/
-|   +-- responsible-ai-policy.md
-|   +-- generative-ai-policy.md
-|   +-- ai-security-standard.md
-|   +-- acceptable-ai-use-policy.md
-|
-+-- 04-controls/
-|   +-- ai-control-catalogue.xlsx
-|   +-- nist-ai-rmf-mapping.xlsx
-|   +-- iso-42001-mapping.xlsx
-|   +-- security-control-mapping.xlsx
-|
-+-- 05-architecture/
-|   +-- ai-reference-architecture.md
-|   +-- architecture-principles.md
-|   +-- diagrams/
-|
-+-- 06-assurance/
-    +-- ai-vendor-assessment.md
-    +-- ai-go-live-checklist.md
-    +-- ai-monitoring-framework.md
-    +-- ai-incident-management.md
+│
+├── 01-governance/
+│   ├── ai-governance-framework.md
+│   ├── ai-principles.md
+│   ├── governance-operating-model.md
+│   └── roles-and-raci.md
+│
+├── 02-risk/
+│   ├── ai-risk-classification.md
+│   ├── ai-risk-assessment.md
+│   ├── ai-risk-register.xlsx
+│   └── ai-use-case-assessment.md
+│
+├── 03-policies/
+│   ├── responsible-ai-policy.md
+│   ├── generative-ai-policy.md
+│   ├── ai-security-standard.md
+│   └── acceptable-ai-use-policy.md
+│
+├── 04-controls/
+│   ├── ai-control-catalogue.xlsx
+│   ├── nist-ai-rmf-mapping.xlsx
+│   ├── iso-42001-mapping.xlsx
+│   └── security-control-mapping.xlsx
+│
+├── 05-architecture/
+│   ├── ai-reference-architecture.md
+│   ├── architecture-principles.md
+│   └── diagrams/
+│
+└── 06-assurance/
+    ├── ai-vendor-assessment.md
+    ├── ai-go-live-checklist.md
+    ├── ai-monitoring-framework.md
+    └── ai-incident-management.md
+```
 
 ⸻
 
