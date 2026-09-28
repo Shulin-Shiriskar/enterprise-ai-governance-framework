@@ -167,45 +167,24 @@ AI risk does not end when a system enters production. Systems must be continuous
 
 Every enterprise AI use case follows a defined lifecycle.
 
-Business AI Idea
-       |
-       v
-AI Use-Case Intake
-       |
-       v
-Initial Risk Classification
-       |
-       +-------- Minimal Risk --------> Streamlined Approval
-       |
-       v
-AI Risk Assessment
-       |
-       v
-Data / Privacy / Cyber Assessment
-       |
-       v
-Architecture & Security Review
-       |
-       v
-AI Governance Approval
-       |
-       v
-Build / Configuration
-       |
-       v
-Pre-Production Assurance
-       |
-       v
-Production
-       |
-       v
-Continuous Monitoring
-       |
-       v
-Periodic Reassessment
-       |
-       v
-Retirement
+```mermaid
+flowchart TD
+    A[Business AI Idea] --> B[AI Use-Case Intake]
+    B --> C[Initial Risk Classification]
+
+    C -->|Minimal Risk| D[Streamlined Approval]
+    C -->|Elevated Risk| E[AI Risk Assessment]
+
+    E --> F[Data / Privacy / Cyber Assessment]
+    F --> G[Architecture & Security Review]
+    G --> H[AI Governance Approval]
+    H --> I[Build / Configuration]
+    I --> J[Pre-Production Assurance]
+    J --> K[Production]
+    K --> L[Continuous Monitoring]
+    L --> M[Periodic Reassessment]
+    M --> N[Retirement]
+```
 
 This lifecycle ensures governance is integrated into technology delivery rather than operating as a separate compliance exercise.
 
