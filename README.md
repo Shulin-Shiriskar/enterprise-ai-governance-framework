@@ -249,19 +249,20 @@ Additional requirements:
 
 AI governance requires participation across multiple organisational functions.
 
-Board / Executive
-        |
-        v
-AI Governance Committee
-        |
-  +-----+-------+---------+----------+
-  |             |         |          |
-Architecture  Security   Data      Privacy
-  |             |         |          |
-  +-------------+---------+----------+
-                |
-                v
-          AI Delivery Teams
+```mermaid
+flowchart TD
+    A[Board / Executive] --> B[AI Governance Committee]
+
+    B --> C[Enterprise Architecture]
+    B --> D[Cybersecurity]
+    B --> E[Data Governance]
+    B --> F[Privacy]
+
+    C --> G[AI Delivery Teams]
+    D --> G
+    E --> G
+    F --> G
+```
 
 Typical stakeholders include:
 
