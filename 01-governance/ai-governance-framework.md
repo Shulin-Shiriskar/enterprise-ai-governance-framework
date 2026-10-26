@@ -1,6 +1,6 @@
-Enterprise AI Governance Framework
+# Enterprise AI Governance Framework
 
-1. Purpose
+## 1. Purpose
 
 This framework establishes the governance model for the responsible, secure and controlled adoption of Artificial Intelligence across Austera Transport Group (ATG).
 
@@ -18,9 +18,9 @@ The framework defines how AI initiatives are:
 
 The objective is to enable AI innovation while ensuring that cybersecurity, privacy, data, operational, regulatory and ethical risks remain within organisational risk appetite.
 
-⸻
+---
 
-2. Governance Objectives
+## 2. Governance Objectives
 
 The AI Governance Framework establishes the following objectives:
 
@@ -35,9 +35,9 @@ The AI Governance Framework establishes the following objectives:
 9. Establish continuous monitoring and assurance.
 10. Maintain evidence supporting governance and compliance decisions.
 
-⸻
+---
 
-3. Governance Principles
+## 3. Governance Principles
 
 ATG applies the following principles to AI adoption.
 
@@ -73,9 +73,9 @@ Continuous Assurance
 
 AI systems must remain subject to monitoring and periodic reassessment throughout their operational lifecycle.
 
-⸻
+---
 
-4. Governance Structure
+## 4. Governance Structure
 
 AI governance operates through multiple levels of organisational accountability.
 
@@ -106,10 +106,10 @@ flowchart TD
     G --> H
 
 ```
- 
-⸻
 
-5. AI Governance Committee
+---
+
+## 5. AI Governance Committee
 
 The AI Governance Committee (AIGC) provides enterprise oversight of significant AI initiatives.
 
@@ -144,9 +144,9 @@ The committee may include:
 * AI/ML Engineering
 * Business representatives
 
-⸻
+---
 
-6. AI Ownership Model
+## 6. AI Ownership Model
 
 Every AI system must have clearly defined ownership.
 
@@ -191,17 +191,18 @@ Responsible for:
 * Security control validation
 * Security monitoring requirements
 
-⸻
+---
 
-7. AI Risk Classification
+## 7. AI Risk Classification
 
 All AI use cases must undergo initial risk classification.
 
-Tier	Classification	Governance Level
-Tier 1	Minimal	Streamlined
-Tier 2	Limited	Standard
-Tier 3	High	Enhanced
-Tier 4	Critical	Executive
+| Tier | Classification | Governance Level |
+| --- | --- | --- |
+| Tier 1 | Minimal | Streamlined |
+| Tier 2 | Limited | Standard |
+| Tier 3 | High | Enhanced |
+| Tier 4 | Critical | Executive |
 
 Risk classification considers:
 
@@ -216,23 +217,24 @@ Risk classification considers:
 * Operational impact
 * Third-party dependency
 
-⸻
+---
 
-8. Decision Authority
+## 8. Decision Authority
 
 Decision authority is proportional to risk.
 
-Risk Tier	Approval Authority
-Tier 1	Business Owner
-Tier 2	Business + Technology / Architecture
-Tier 3	AI Governance Committee
-Tier 4	Executive Risk Authority
+| Risk Tier | Approval Authority |
+| --- | --- |
+| Tier 1 | Business Owner |
+| Tier 2 | Business + Technology / Architecture |
+| Tier 3 | AI Governance Committee |
+| Tier 4 | Executive Risk Authority |
 
 Tier 4 AI systems may additionally require independent assurance before production deployment.
 
-⸻
+---
 
-9. AI Governance Lifecycle
+## 9. AI Governance Lifecycle
 
 AI initiatives progress through formal governance gates.
 
@@ -266,9 +268,9 @@ flowchart TD
 
 ```
 
-⸻
+---
 
-10. Governance Gates
+## 10. Governance Gates
 
 Gate 1 — AI Use-Case Registration
 
@@ -285,7 +287,7 @@ Required information includes:
 * Expected users
 * Decision impact
 
-⸻
+---
 
 Gate 2 — Risk Classification
 
@@ -293,7 +295,7 @@ The use case is assigned an initial risk tier.
 
 The classification determines subsequent governance requirements.
 
-⸻
+---
 
 Gate 3 — Risk Assessment
 
@@ -307,7 +309,7 @@ Depending on risk classification, assessments may include:
 * Third-party assessment
 * Operational risk assessment
 
-⸻
+---
 
 Gate 4 — Architecture & Security Review
 
@@ -331,7 +333,7 @@ Architecture review assesses:
 
 High and Critical systems require formal security architecture review.
 
-⸻
+---
 
 Gate 5 — Governance Decision
 
@@ -353,7 +355,7 @@ Rejected
 
 The proposed risk exceeds organisational risk appetite or cannot be adequately mitigated.
 
-⸻
+---
 
 Gate 6 — Pre-Production Assurance
 
@@ -371,7 +373,7 @@ Evidence may include:
 * AI guardrail testing
 * Incident-response readiness
 
-⸻
+---
 
 Gate 7 — Operational Monitoring
 
@@ -390,7 +392,7 @@ Monitoring may include:
 * User behaviour
 * Third-party changes
 
-⸻
+---
 
 Gate 8 — Periodic Reassessment
 
@@ -408,9 +410,9 @@ Triggers include:
 * Regulatory change
 * Change in business purpose
 
-⸻
+---
 
-11. Three Lines Model
+## 11. Three Lines Model
 
 AI governance uses a three-lines assurance model.
 
@@ -428,7 +430,7 @@ Includes:
 
 Responsibilities include implementing required controls and operating AI systems safely.
 
-⸻
+---
 
 Second Line — Governance, Risk and Security
 
@@ -452,7 +454,7 @@ Responsibilities include:
 * Providing architecture assurance
 * Monitoring compliance
 
-⸻
+---
 
 Third Line — Independent Assurance
 
@@ -464,9 +466,9 @@ Typically includes:
 * External Audit
 * Independent assurance providers
 
-⸻
+---
 
-12. Exception Management
+## 12. Exception Management
 
 Where an AI system cannot satisfy a required control, an exception must be formally recorded.
 
@@ -486,9 +488,9 @@ High-risk exceptions require AI Governance Committee approval.
 
 Critical exceptions require executive risk acceptance.
 
-⸻
+---
 
-13. AI Incident Governance
+## 13. AI Incident Governance
 
 AI-related incidents must integrate with the enterprise incident-management process.
 
@@ -507,9 +509,9 @@ Examples include:
 
 Material incidents must trigger reassessment of the affected AI system.
 
-⸻
+---
 
-14. Governance Metrics
+## 14. Governance Metrics
 
 The AI Governance Committee should receive regular reporting.
 
@@ -536,9 +538,9 @@ The following metrics provide executive leadership and the AI Governance Committ
 | High-risk AI systems | Executive visibility |
 | AI systems with sensitive data | Data exposure |
 
-⸻
+---
 
-15. Governance Escalation
+## 15. Governance Escalation
 
 Issues must be escalated when:
 
@@ -565,9 +567,9 @@ flowchart TD
 
 ```
 
-⸻
+---
 
-16. Continuous Improvement
+## 16. Continuous Improvement
 
 The governance framework must evolve as:
 
@@ -581,9 +583,9 @@ The governance framework must evolve as:
 
 The framework should therefore undergo formal review at least annually and following significant AI-related incidents or regulatory changes.
 
-⸻
+---
 
-17. Framework Outcomes
+## 17. Framework Outcomes
 
 Effective implementation of this governance framework enables ATG to:
 
@@ -598,7 +600,7 @@ Effective implementation of this governance framework enables ATG to:
 * Monitor AI systems throughout their lifecycle
 * Enable AI innovation within defined organisational guardrails
 
-⸻
+---
 
 Related Artefacts
 
@@ -618,7 +620,7 @@ This framework is supported by:
 
 These artefacts are progressively developed within this repository.
 
-⸻
+---
 
 Disclaimer
 

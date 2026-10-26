@@ -1,28 +1,29 @@
-AI Governance Roles and RACI
+# AI Governance Roles and RACI
 
-1. Purpose
+## 1. Purpose
 
 This document defines the key roles, responsibilities and decision-accountability model supporting Artificial Intelligence governance across Austera Transport Group (ATG).
 
 The objective is to ensure that AI governance activities have clear ownership and that accountability for AI risk is not unintentionally delegated to technology teams, vendors or AI systems.
 
-⸻
+---
 
-2. RACI Model
+## 2. RACI Model
 
 The following definitions are used throughout this document.
 
-Role	Definition
-R – Responsible	Performs or coordinates the activity
-A – Accountable	Ultimately accountable for the outcome or decision
-C – Consulted	Provides specialist input before the activity or decision
-I – Informed	Receives relevant information regarding the activity or decision
+| Role | Definition |
+| --- | --- |
+| R – Responsible | Performs or coordinates the activity |
+| A – Accountable | Ultimately accountable for the outcome or decision |
+| C – Consulted | Provides specialist input before the activity or decision |
+| I – Informed | Receives relevant information regarding the activity or decision |
 
 Each activity should normally have one clearly identifiable accountable role.
 
-⸻
+---
 
-3. Governance Roles
+## 3. Governance Roles
 
 The AI governance model includes the following key roles and functions.
 
@@ -70,16 +71,18 @@ Internal Audit — IA
 
 Provides independent assurance over governance and control effectiveness.
 
-⸻
+---
 
-4. Enterprise AI Governance RACI
+## 4. Enterprise AI Governance RACI
 
-	A/R<img width="909" height="449" alt="image" src="https://github.com/user-attachments/assets/e0948126-d63f-4d45-8457-ca6ed393e050" />
+<img width="909" height="449" alt="Enterprise AI governance RACI matrix (reference image)" src="https://github.com/user-attachments/assets/e0948126-d63f-4d45-8457-ca6ed393e050" />
+
+> **Portfolio note:** The RACI image is hosted externally on GitHub. Verify that it remains accessible; for a self-contained repository, replace it with a local image or a Markdown table.
 
 
-⸻
+---
 
-5. Business Owner
+## 5. Business Owner
 
 The Business Owner remains accountable for the business use of AI.
 
@@ -96,9 +99,9 @@ Responsibilities include:
 
 The Business Owner cannot transfer business accountability to an AI provider or technical delivery team.
 
-⸻
+---
 
-6. Executive Risk Authority
+## 6. Executive Risk Authority
 
 The Executive Risk Authority provides senior accountability for AI risks exceeding delegated governance authority.
 
@@ -110,9 +113,9 @@ Responsibilities include:
 * Reviewing material AI incidents
 * Escalating matters to executive leadership or the Board where required
 
-⸻
+---
 
-7. AI Governance Committee
+## 7. AI Governance Committee
 
 The AI Governance Committee provides cross-functional governance.
 
@@ -129,9 +132,9 @@ Responsibilities include:
 
 The AIGC does not replace the accountability of the Business Owner.
 
-⸻
+---
 
-8. Enterprise Architecture
+## 8. Enterprise Architecture
 
 Enterprise Architecture ensures AI solutions align with approved enterprise architecture.
 
@@ -148,9 +151,9 @@ Responsibilities include:
 
 Enterprise Architecture works closely with Cybersecurity, Data Governance and technology teams.
 
-⸻
+---
 
-9. Cybersecurity
+## 9. Cybersecurity
 
 Cybersecurity defines and assures security requirements for AI.
 
@@ -170,9 +173,9 @@ Responsibilities include:
 
 Cybersecurity provides independent challenge but does not own the business risk associated with the AI use case.
 
-⸻
+---
 
-10. Data Governance
+## 10. Data Governance
 
 Data Governance ensures AI systems use enterprise information appropriately.
 
@@ -188,9 +191,9 @@ Responsibilities include:
 * Retention
 * Data lifecycle
 
-⸻
+---
 
-11. Privacy
+## 11. Privacy
 
 Privacy provides oversight where AI processes personal or sensitive information.
 
@@ -204,9 +207,9 @@ Responsibilities include:
 * Retention considerations
 * Transparency requirements
 
-⸻
+---
 
-12. Enterprise Risk
+## 12. Enterprise Risk
 
 Enterprise Risk provides risk methodology and independent challenge.
 
@@ -222,9 +225,9 @@ Responsibilities include:
 
 Enterprise Risk facilitates effective risk management but does not replace the accountable risk owner.
 
-⸻
+---
 
-13. Technology Owner
+## 13. Technology Owner
 
 The Technology Owner manages the technical lifecycle of the AI solution.
 
@@ -241,9 +244,9 @@ Responsibilities include:
 * Lifecycle management
 * Technical retirement
 
-⸻
+---
 
-14. AI Delivery Team
+## 14. AI Delivery Team
 
 The AI Delivery Team implements AI capabilities within approved governance guardrails.
 
@@ -261,9 +264,9 @@ Responsibilities include:
 
 Delivery teams may identify and manage technical risk but cannot independently accept material enterprise risk.
 
-⸻
+---
 
-15. Internal Audit
+## 15. Internal Audit
 
 Internal Audit provides independent assurance.
 
@@ -280,9 +283,9 @@ Potential assurance activities include:
 
 Internal Audit forms the third line and therefore does not design or operate first-line controls.
 
-⸻
+---
 
-16. Segregation of Duties
+## 16. Segregation of Duties
 
 AI governance must maintain appropriate segregation between:
 
@@ -301,9 +304,9 @@ For higher-risk AI systems:
 * Material risk acceptance must remain with an authorised organisational risk owner.
 * Independent assurance should remain separate from control operation.
 
-⸻
+---
 
-17. Decision Escalation
+## 17. Decision Escalation
 
 Where governance functions disagree on whether an AI system should proceed, the matter follows the escalation path:
 
@@ -327,9 +330,9 @@ flowchart TD
 
 The escalation process ensures unresolved risk is explicitly accepted or treated rather than implicitly transferred to delivery teams.
 
-⸻
+---
 
-18. Accountability Principle
+## 18. Accountability Principle
 
 The operating model follows a simple rule:
 
@@ -345,7 +348,7 @@ Internal Audit independently assesses whether governance is working effectively.
 
 This separation is fundamental to effective enterprise AI governance.
 
-⸻
+---
 
 Related Artefacts
 
@@ -359,7 +362,7 @@ Related Artefacts
 * AI Vendor Assessment
 * AI Monitoring Framework
 
-⸻
+---
 
 Disclaimer
 

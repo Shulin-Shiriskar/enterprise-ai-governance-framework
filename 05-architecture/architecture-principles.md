@@ -430,20 +430,20 @@ Reassessment must occur when material changes affect:
 
 Architecture should provide traceability from business need to technical implementation:
 
-**Business Objective  
-↓  
-AI Use Case  
-↓  
-Risk Classification  
-↓  
-Governance Requirement  
-↓  
-Security Control  
-↓  
-Architecture Pattern  
-↓  
-Technical Implementation  
-↓  
+**Business Objective
+↓
+AI Use Case
+↓
+Risk Classification
+↓
+Governance Requirement
+↓
+Security Control
+↓
+Architecture Pattern
+↓
+Technical Implementation
+↓
 Evidence & Assurance**
 
 ---

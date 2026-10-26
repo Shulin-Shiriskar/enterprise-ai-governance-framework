@@ -721,22 +721,22 @@ Architecture controls must trace back to governance and risk requirements.
 
 The intended relationship is:
 
-**Business Requirement  
-↓  
-AI Use Case  
-↓  
-Risk Classification  
-↓  
-Policy  
-↓  
-Security Control  
-↓  
-Architecture Pattern  
-↓  
-Technical Implementation  
-↓  
-Evidence  
-↓  
+**Business Requirement
+↓
+AI Use Case
+↓
+Risk Classification
+↓
+Policy
+↓
+Security Control
+↓
+Architecture Pattern
+↓
+Technical Implementation
+↓
+Evidence
+↓
 Assurance**
 
 This provides end-to-end governance traceability.

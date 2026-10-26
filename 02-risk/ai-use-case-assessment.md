@@ -1,6 +1,6 @@
-AI Use Case Intake and Assessment
+# AI Use Case Intake and Assessment
 
-1. Purpose
+## 1. Purpose
 
 This assessment provides the initial intake process for proposed Artificial Intelligence use cases across Austera Transport Group (ATG).
 
@@ -15,25 +15,26 @@ It is designed to capture sufficient information to:
 
 This assessment should be completed before procurement, production implementation or material organisational data is provided to an AI service.
 
-⸻
+---
 
-2. Use Case Information
+## 2. Use Case Information
 
-Field	Response
-Use Case Name	
-Business Unit	
-Business Owner	
-Technology Owner	
-Requestor	
-Proposed AI Provider	
-Proposed AI Model / Service	
-Target Implementation Date	
-New or Existing Capability	
-Assessment Date	
+| Field | Response |
+| --- | --- |
+| Use Case Name |  |
+| Business Unit |  |
+| Business Owner |  |
+| Technology Owner |  |
+| Requestor |  |
+| Proposed AI Provider |  |
+| Proposed AI Model / Service |  |
+| Target Implementation Date |  |
+| New or Existing Capability |  |
+| Assessment Date |  |
 
-⸻
+---
 
-3. Business Problem
+## 3. Business Problem
 
 What problem are we trying to solve?
 
@@ -41,7 +42,7 @@ Describe the current business problem, limitation or opportunity.
 
 Response:
 
-⸻
+---
 
 What outcome is expected?
 
@@ -57,7 +58,7 @@ Examples:
 
 Response:
 
-⸻
+---
 
 Why is AI required?
 
@@ -65,9 +66,9 @@ Explain why AI is more appropriate than conventional automation, analytics, sear
 
 Response:
 
-⸻
+---
 
-4. AI Capability
+## 4. AI Capability
 
 Select the proposed capability:
 
@@ -84,9 +85,9 @@ Select the proposed capability:
 
 Description:
 
-⸻
+---
 
-5. Users
+## 5. Users
 
 Who will interact with the AI?
 
@@ -102,9 +103,9 @@ Estimated number of users:
 
 Response:
 
-⸻
+---
 
-6. Information Used by AI
+## 6. Information Used by AI
 
 What information will the AI access or process?
 
@@ -123,9 +124,9 @@ Primary data sources:
 
 Response:
 
-⸻
+---
 
-7. AI Decision Impact
+## 7. AI Decision Impact
 
 What role will AI play?
 
@@ -145,9 +146,9 @@ Could an incorrect AI output materially affect a person, customer, employee, fin
 
 Explain where applicable:
 
-⸻
+---
 
-8. AI Autonomy
+## 8. AI Autonomy
 
 Can the AI initiate actions in another system?
 
@@ -168,9 +169,9 @@ If yes, can it:
 
 Describe:
 
-⸻
+---
 
-9. Human Oversight
+## 9. Human Oversight
 
 Will a human review AI output before a significant action or decision?
 
@@ -185,9 +186,9 @@ Can a human stop or override the AI?
 * No
 * Not applicable
 
-⸻
+---
 
-10. External AI Provider
+## 10. External AI Provider
 
 Is a third-party AI provider involved?
 
@@ -213,9 +214,9 @@ Is it known whether the provider can use organisational data for model training?
 * Training permitted
 * Unknown
 
-⸻
+---
 
-11. Integration
+## 11. Integration
 
 Will the AI integrate with enterprise systems?
 
@@ -236,51 +237,53 @@ Potential integrations:
 
 Details:
 
-⸻
+---
 
-12. Initial Risk Indicators
+## 12. Initial Risk Indicators
 
 Mark Yes where applicable.
 
-Risk Indicator	Yes	No	Unknown
-Processes sensitive information			
-Processes personal information			
-Accessible from the internet			
-Used by customers/public			
-Makes or influences significant decisions			
-Can autonomously execute actions			
-Has privileged system access			
-Integrates with critical systems			
-Impacts safety or operations			
-Uses third-party AI			
-Uses enterprise data for model training			
-Uses RAG over confidential information			
-Operates across critical infrastructure			
+| Risk Indicator | Yes | No | Unknown |
+| --- | --- | --- | --- |
+| Processes sensitive information |  |  |  |
+| Processes personal information |  |  |  |
+| Accessible from the internet |  |  |  |
+| Used by customers/public |  |  |  |
+| Makes or influences significant decisions |  |  |  |
+| Can autonomously execute actions |  |  |  |
+| Has privileged system access |  |  |  |
+| Integrates with critical systems |  |  |  |
+| Impacts safety or operations |  |  |  |
+| Uses third-party AI |  |  |  |
+| Uses enterprise data for model training |  |  |  |
+| Uses RAG over confidential information |  |  |  |
+| Operates across critical infrastructure |  |  |  |
 
-⸻
+---
 
-13. Specialist Assessment Triggers
+## 13. Specialist Assessment Triggers
 
 The following conditions trigger additional assessment.
 
-Trigger	Required Review
-Personal information	Privacy
-Confidential/sensitive information	Data Governance + Cybersecurity
-Enterprise integration	Enterprise Architecture
-Internet/public exposure	Cybersecurity
-AI agent/autonomous actions	Cybersecurity + Architecture
-Critical infrastructure	Cybersecurity + Enterprise Risk
-High-impact decisions	Risk + Governance
-Third-party AI provider	Vendor Risk + Security + Privacy
-RAG over enterprise information	Data + Security + Architecture
-Significant operational impact	Enterprise Risk
-Safety implications	Executive / Specialist Assurance
+| Trigger | Required Review |
+| --- | --- |
+| Personal information | Privacy |
+| Confidential/sensitive information | Data Governance + Cybersecurity |
+| Enterprise integration | Enterprise Architecture |
+| Internet/public exposure | Cybersecurity |
+| AI agent/autonomous actions | Cybersecurity + Architecture |
+| Critical infrastructure | Cybersecurity + Enterprise Risk |
+| High-impact decisions | Risk + Governance |
+| Third-party AI provider | Vendor Risk + Security + Privacy |
+| RAG over enterprise information | Data + Security + Architecture |
+| Significant operational impact | Enterprise Risk |
+| Safety implications | Executive / Specialist Assurance |
 
 Multiple reviews may apply.
 
-⸻
+---
 
-14. Initial Governance Screening
+## 14. Initial Governance Screening
 
 Following intake, the assessor determines:
 
@@ -305,9 +308,9 @@ Required Assessments
 * Enterprise Risk Review
 * Independent Assurance
 
-⸻
+---
 
-15. Initial Recommendation
+## 15. Initial Recommendation
 
 * Proceed through streamlined governance
 * Proceed to standard assessment
@@ -318,50 +321,42 @@ Required Assessments
 
 Comments
 
-⸻
+---
 
-16. Intake Decision
+## 16. Intake Decision
 
-Field	Response
-Initial Risk Tier	
-Governance Path	
-Required Assessments	
-Assessment Owner	
-Target Review Date	
-AI Inventory ID	
+| Field | Response |
+| --- | --- |
+| Initial Risk Tier |  |
+| Governance Path |  |
+| Required Assessments |  |
+| Assessment Owner |  |
+| Target Review Date |  |
+| AI Inventory ID |  |
 
-⸻
+---
 
-17. Governance Flow
+## 17. Governance Flow
 
-Business AI Idea
-       |
-       v
-AI Use Case Intake
-       |
-       v
-Initial Risk Screening
-       |
-       +-------- Low Risk --------> Streamlined Governance
-       |
-       +-------- Moderate --------> Standard Assessment
-       |
-       +-------- High -----------> Enhanced Assessment
-       |
-       +-------- Critical -------> Executive Governance
-                                     |
-                                     v
-                           Full AI Risk Assessment
-                                     |
-                                     v
-                           Required Specialist Reviews
-                                     |
-                                     v
-                              Governance Decision
+```mermaid
+flowchart TD
+    A["Business AI Idea"] --> B["AI Use Case Intake"]
+    B --> C["Initial Risk Screening"]
+    C -->|"Tier 1 - Minimal"| D["Streamlined Governance"]
+    C -->|"Tier 2 - Limited"| E["Standard Assessment"]
+    C -->|"Tier 3 - High"| F["Enhanced Assessment"]
+    C -->|"Tier 4 - Critical"| G["Executive Governance Path"]
+    D --> H["Risk-Proportionate Assessment and Controls"]
+    E --> H
+    F --> H
+    G --> H
+    H --> I["Required Specialist Reviews"]
+    I --> J["Decision by Risk-Tier Approval Authority"]
+```
 
-⸻
+---
 
-18. Relationship to Full Risk Assessment
+## 18. Relationship to Full Risk Assessment
 
 This intake assessment is not a replacement for the Enterprise AI Risk Assessment.
 
@@ -373,9 +368,9 @@ Intake → Screen → Classify → Assess → Control → Approve → Monitor
 
 This allows low-risk AI innovation to proceed efficiently while directing governance effort toward AI systems capable of creating material organisational impact.
 
-⸻
+---
 
-Related Artefacts
+## Related Artefacts
 
 * AI Risk Classification Methodology
 * Enterprise AI Risk Assessment
@@ -385,9 +380,9 @@ Related Artefacts
 * AI Control Catalogue
 * AI Vendor Assessment
 
-⸻
+---
 
-Disclaimer
+## Disclaimer
 
 Austera Transport Group (ATG) is a fictional organisation created solely for this professional portfolio project.
 

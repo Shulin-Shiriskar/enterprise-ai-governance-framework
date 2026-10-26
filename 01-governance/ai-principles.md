@@ -1,6 +1,6 @@
-Enterprise AI Principles
+# Enterprise AI Principles
 
-1. Purpose
+## 1. Purpose
 
 These principles establish the mandatory foundations for the responsible, secure and controlled adoption of Artificial Intelligence across Austera Transport Group (ATG).
 
@@ -8,9 +8,9 @@ They apply to internally developed AI, third-party AI services, Generative AI, m
 
 The principles guide architecture decisions, risk assessments, technology selection, implementation and operational governance throughout the AI lifecycle.
 
-⸻
+---
 
-2. AI Must Have a Defined Business Purpose
+## 2. AI Must Have a Defined Business Purpose
 
 AI must be introduced to address a clearly defined business problem or opportunity.
 
@@ -25,9 +25,9 @@ Every AI initiative must identify:
 
 Technology experimentation alone does not justify production deployment.
 
-⸻
+---
 
-3. Accountability Cannot Be Delegated to AI
+## 3. Accountability Cannot Be Delegated to AI
 
 An AI system cannot be accountable for a business decision.
 
@@ -35,9 +35,9 @@ Every production AI system must have an identified human owner accountable for i
 
 Where AI influences significant decisions, appropriate human oversight must be maintained.
 
-⸻
+---
 
-4. Governance Must Be Proportionate to Risk
+## 4. Governance Must Be Proportionate to Risk
 
 AI governance must follow a risk-based approach.
 
@@ -55,9 +55,9 @@ High-impact AI requires stronger:
 
 Governance effort must therefore increase with potential organisational impact.
 
-⸻
+---
 
-5. Security Must Be Designed In
+## 5. Security Must Be Designed In
 
 AI systems must follow secure-by-design principles.
 
@@ -79,9 +79,9 @@ Security considerations include:
 * Monitoring
 * AI supply-chain security
 
-⸻
+---
 
-6. Data Must Be Governed
+## 6. Data Must Be Governed
 
 AI does not override existing data-governance requirements.
 
@@ -95,9 +95,9 @@ AI systems may only access data that is:
 
 Sensitive information must not be submitted to unapproved AI platforms.
 
-⸻
+---
 
-7. Privacy Must Be Protected
+## 7. Privacy Must Be Protected
 
 AI systems processing personal information must incorporate privacy by design.
 
@@ -114,9 +114,9 @@ Privacy considerations must include:
 
 Privacy impact assessments must be undertaken where required.
 
-⸻
+---
 
-8. Human Oversight Must Match Impact
+## 8. Human Oversight Must Match Impact
 
 Human oversight must be proportional to the consequences of AI decisions.
 
@@ -130,9 +130,9 @@ High-impact AI must provide mechanisms for:
 
 Critical business or safety decisions must not rely solely on uncontrolled AI output.
 
-⸻
+---
 
-9. AI Outputs Must Be Treated as Untrusted
+## 9. AI Outputs Must Be Treated as Untrusted
 
 AI-generated output must not automatically be assumed to be correct, safe or authoritative.
 
@@ -147,9 +147,9 @@ Applications consuming AI-generated content must consider:
 
 High-impact outputs require appropriate validation.
 
-⸻
+---
 
-10. AI Access Must Follow Least Privilege
+## 10. AI Access Must Follow Least Privilege
 
 AI systems, models and agents must receive only the access necessary to perform their intended function.
 
@@ -165,9 +165,9 @@ This applies to:
 
 AI agents must not receive broad administrative privileges unless explicitly justified, controlled and approved.
 
-⸻
+---
 
-11. Enterprise Data Must Remain Protected
+## 11. Enterprise Data Must Remain Protected
 
 Organisational information must not become model-training data without explicit authorisation.
 
@@ -180,9 +180,9 @@ Contracts and technical configurations must establish:
 * Provider access
 * Sub-processor requirements
 
-⸻
+---
 
-12. AI Must Be Observable
+## 12. AI Must Be Observable
 
 Production AI systems must generate sufficient telemetry to support:
 
@@ -195,9 +195,9 @@ Production AI systems must generate sufficient telemetry to support:
 
 Higher-risk AI requires greater observability.
 
-⸻
+---
 
-13. AI Must Be Resilient
+## 13. AI Must Be Resilient
 
 AI-enabled business processes must consider failure scenarios.
 
@@ -212,9 +212,9 @@ Solutions must define appropriate:
 
 Critical processes must not assume AI services will always be available or accurate.
 
-⸻
+---
 
-14. Third-Party AI Must Be Assessed
+## 14. Third-Party AI Must Be Assessed
 
 External AI providers must undergo appropriate due diligence before organisational information is provided to them.
 
@@ -231,9 +231,9 @@ Assessment must consider:
 * Contractual protections
 * Exit strategy
 
-⸻
+---
 
-15. AI Must Be Continuously Governed
+## 15. AI Must Be Continuously Governed
 
 Approval to enter production is not permanent approval.
 
@@ -249,9 +249,9 @@ AI systems must be reassessed when there are material changes to:
 * Regulatory requirements
 * Threat environment
 
-⸻
+---
 
-16. AI Risk Must Be Explicit
+## 16. AI Risk Must Be Explicit
 
 AI risk must not remain implicit within technical implementation.
 
@@ -265,9 +265,9 @@ Material risks must be:
 6. Monitored
 7. Periodically reassessed
 
-⸻
+---
 
-17. AI Decisions Must Be Traceable
+## 17. AI Decisions Must Be Traceable
 
 Significant AI governance decisions must maintain sufficient evidence to demonstrate:
 
@@ -278,9 +278,9 @@ Significant AI governance decisions must maintain sufficient evidence to demonst
 * What testing was performed
 * When reassessment is required
 
-⸻
+---
 
-18. AI Innovation Should Be Enabled Safely
+## 18. AI Innovation Should Be Enabled Safely
 
 Governance exists to enable responsible innovation, not prevent experimentation.
 
@@ -294,9 +294,9 @@ This may include:
 * Development guardrails
 * Controlled experimentation environments
 
-⸻
+---
 
-19. Principles Summary
+## 19. Principles Summary
 
 ATG’s AI adoption is governed by the following core expectations:
 
@@ -324,7 +324,7 @@ Governance continues throughout the AI lifecycle.
 
 Innovation should be enabled within defined guardrails.
 
-⸻
+---
 
 Disclaimer
 

@@ -459,24 +459,24 @@ Tier 3 and Tier 4 AI systems should receive enhanced post-production review.
 
 The go-live gate completes the assurance chain:
 
-**Business Use Case  
-↓  
-Risk Classification  
-↓  
-Risk Assessment  
-↓  
-Policy Requirements  
-↓  
-Security Controls  
-↓  
-Architecture Review  
-↓  
-Testing & Evidence  
-↓  
-Go-Live Assurance  
-↓  
-Production Monitoring  
-↓  
+**Business Use Case
+↓
+Risk Classification
+↓
+Risk Assessment
+↓
+Policy Requirements
+↓
+Security Controls
+↓
+Architecture Review
+↓
+Testing & Evidence
+↓
+Go-Live Assurance
+↓
+Production Monitoring
+↓
 Periodic Reassessment**
 
 ---

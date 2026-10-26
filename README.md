@@ -1,4 +1,4 @@
-Enterprise AI Governance Framework
+# Enterprise AI Governance Framework
 
 A practical enterprise framework for governing, securing and managing Artificial Intelligence across its lifecycle.
 
@@ -8,9 +8,30 @@ The framework demonstrates how AI governance can be translated from high-level p
 
 The reference scenario uses a fictional Australian critical-infrastructure organisation, Austera Transport Group (ATG), operating across Microsoft Azure and AWS.
 
-⸻
+---
 
-1. Executive Overview
+## Start Here — Framework Artefacts
+
+This is a **fictional reference implementation** for Austera Transport Group (ATG), not an assertion of deployment, independent audit or certification. The framework illustrates how governance requirements connect to operational evidence.
+
+| Workstream | Key artefacts |
+| --- | --- |
+| 01 — Governance | [Framework](01-governance/ai-governance-framework.md) · [Principles](01-governance/ai-principles.md) · [Operating model](01-governance/governance-operating-model.md) · [Roles and RACI](01-governance/roles-and-raci.md) |
+| 02 — Risk | [Risk classification](02-risk/ai-risk-classification.md) · [Risk assessment](02-risk/ai-risk-assessment.md) · [Use-case intake](02-risk/ai-use-case-assessment.md) · [Risk register](02-risk/ai-risk-register.xlsx) |
+| 03 — Policies | [Responsible AI](03-policies/responsible-ai-policy.md) · [Generative AI](03-policies/generative-ai-policy.md) · [AI security standard](03-policies/ai-security-standard.md) · [Acceptable use](03-policies/acceptable-ai-use-policy.md) |
+| 04 — Controls | [Control catalogue](04-controls/ai-control-catalogue.xlsx) · [NIST AI RMF mapping](04-controls/nist-ai-rmf-mapping.xlsx) · [ISO/IEC 42001 mapping](04-controls/iso-42001-mapping.xlsx) · [Security mapping](04-controls/security-control-mapping.xlsx) |
+| 05 — Architecture | [Reference architecture](05-architecture/ai-reference-architecture.md) · [Principles](05-architecture/architecture-principles.md) · [Architecture diagram](05-architecture/enterprise-ai-reference-architecture.png) |
+| 06 — Assurance | [Vendor assessment](06-assurance/ai-vendor-assessment.md) · [Go-live checklist](06-assurance/ai-go-live-checklist.md) · [Monitoring](06-assurance/ai-monitoring-framework.md) · [Incident management](06-assurance/ai-incident-management.md) |
+
+**End-to-end lifecycle:** Use-case registration → Risk classification → Risk assessment → Policies and controls → Architecture review → Vendor assessment (where relevant) → Go-live assurance → Continuous monitoring → Incident management and reassessment.
+
+![Enterprise AI reference architecture](05-architecture/enterprise-ai-reference-architecture.png)
+
+**Standards positioning:** The artefacts are reference mappings **aligned with** selected NIST AI RMF, ISO/IEC 42001 and security guidance; they do not establish regulatory compliance or certification.
+
+---
+
+## 1. Executive Overview
 
 Artificial Intelligence is increasingly being introduced into organisations through:
 
@@ -42,9 +63,9 @@ Organisations therefore require governance that enables AI adoption while ensuri
 
 This project provides a practical model for establishing that capability.
 
-⸻
+---
 
-2. Reference Organisation
+## 2. Reference Organisation
 
 Austera Transport Group — ATG
 
@@ -77,9 +98,9 @@ Example initiatives include:
 
 The organisation requires an enterprise governance framework before these capabilities can be adopted at scale.
 
-⸻
+---
 
-3. Business Problem
+## 3. Business Problem
 
 AI adoption can occur faster than traditional governance processes can accommodate.
 
@@ -105,9 +126,9 @@ The more useful question is:
 
 How do we enable responsible AI adoption while maintaining appropriate security, risk and governance controls?
 
-⸻
+---
 
-4. Framework Objectives
+## 4. Framework Objectives
 
 The Enterprise AI Governance Framework aims to:
 
@@ -123,9 +144,9 @@ The Enterprise AI Governance Framework aims to:
 10. Establish processes for AI incidents and failures.
 11. Enable responsible AI innovation without unnecessary governance overhead.
 
-⸻
+---
 
-5. Governance Principles
+## 5. Governance Principles
 
 The framework is based on the following principles.
 
@@ -161,9 +182,9 @@ Continuous Assurance
 
 AI risk does not end when a system enters production. Systems must be continuously monitored and periodically reassessed.
 
-⸻
+---
 
-6. AI Governance Lifecycle
+## 6. AI Governance Lifecycle
 
 Every enterprise AI use case follows a defined lifecycle.
 
@@ -188,17 +209,18 @@ flowchart TD
 
 This lifecycle ensures governance is integrated into technology delivery rather than operating as a separate compliance exercise.
 
-⸻
+---
 
-7. AI Risk Classification
+## 7. AI Risk Classification
 
 AI systems are classified according to their potential organisational impact.
 
-Tier	Classification	Example
-Tier 1	Minimal	Public-information summarisation
-Tier 2	Limited	Internal knowledge assistant
-Tier 3	High	AI influencing customer or operational decisions
-Tier 4	Critical	Autonomous/high-impact AI affecting safety or critical infrastructure
+| Tier | Classification | Example |
+| --- | --- | --- |
+| Tier 1 | Minimal | Public-information summarisation |
+| Tier 2 | Limited | Internal knowledge assistant |
+| Tier 3 | High | AI influencing customer or operational decisions |
+| Tier 4 | Critical | Autonomous/high-impact AI affecting safety or critical infrastructure |
 
 Governance requirements increase with risk.
 
@@ -243,9 +265,9 @@ Additional requirements:
 * Formal incident-response planning
 * Regular reassessment
 
-⸻
+---
 
-8. Governance Operating Model
+## 8. Governance Operating Model
 
 AI governance requires participation across multiple organisational functions.
 
@@ -280,9 +302,9 @@ Typical stakeholders include:
 * Business owners
 * Internal audit
 
-⸻
+---
 
-9. AI Governance Decision Model
+## 9. AI Governance Decision Model
 
 AI use cases may receive one of four outcomes:
 
@@ -302,9 +324,9 @@ Rejected
 
 The risk cannot be sufficiently mitigated or is outside organisational risk appetite.
 
-⸻
+---
 
-10. Architecture Governance
+## 10. Architecture Governance
 
 AI governance must translate policy into technical architecture.
 
@@ -332,9 +354,9 @@ Architecture reviews therefore consider:
 
 Architecture patterns and technical guardrails will be developed within this repository.
 
-⸻
+---
 
-11. AI Security
+## 11. AI Security
 
 AI systems introduce attack paths that may not exist within traditional applications.
 
@@ -353,9 +375,9 @@ Examples include:
 
 AI threat modelling and security-control patterns are therefore incorporated into the governance process.
 
-⸻
+---
 
-12. Third-Party AI Governance
+## 12. Third-Party AI Governance
 
 AI SaaS and external model providers require additional assessment.
 
@@ -375,25 +397,26 @@ Supplier reviews consider:
 * Service availability
 * Exit strategy
 
-⸻
+---
 
-13. AI Inventory
+## 13. AI Inventory
 
 ATG maintains a central inventory of AI systems.
 
 Example:
 
-AI System	Owner	Type	Data Classification	Risk Tier	Status
-Corporate Copilot	Digital Workplace	GenAI	Internal	Tier 2	Approved
-Enterprise Knowledge Assistant	Technology	RAG	Confidential	Tier 3	Assessment
-Predictive Maintenance AI	Operations	ML	Operational	Tier 3	Pilot
-Autonomous Operations Agent	Operations	Agentic AI	Critical	Tier 4	Proposed
+| AI System | Owner | Type | Data Classification | Risk Tier | Status |
+| --- | --- | --- | --- | --- | --- |
+| Corporate Copilot | Digital Workplace | GenAI | Internal | Tier 2 | Approved |
+| Enterprise Knowledge Assistant | Technology | RAG | Confidential | Tier 3 | Assessment |
+| Predictive Maintenance AI | Operations | ML | Operational | Tier 3 | Pilot |
+| Autonomous Operations Agent | Operations | Agentic AI | Critical | Tier 4 | Proposed |
 
 The inventory enables visibility, accountability and lifecycle management.
 
-⸻
+---
 
-14. Framework Alignment
+## 14. Framework Alignment
 
 The framework is designed with reference to established AI, cybersecurity and risk-management practices, including:
 
@@ -415,13 +438,11 @@ AI Security
 * OWASP guidance for LLM and Generative AI security
 * MITRE ATLAS
 
-Detailed control mappings will be developed as separate artefacts within the repository.
+Detailed control mappings are provided in the `04-controls` workbooks.
 
-⸻
+---
 
-15. Repository Structure
-
-## Repository Structure
+## 15. Repository Structure
 
 ```text
 enterprise-ai-governance-framework/
@@ -453,7 +474,7 @@ enterprise-ai-governance-framework/
 ├── 05-architecture/
 │   ├── ai-reference-architecture.md
 │   ├── architecture-principles.md
-│   └── diagrams/
+│   └── enterprise-ai-reference-architecture.png
 │
 └── 06-assurance/
     ├── ai-vendor-assessment.md
@@ -462,9 +483,9 @@ enterprise-ai-governance-framework/
     └── ai-incident-management.md
 ```
 
-⸻
+---
 
-16. Target Outcomes
+## 16. Target Outcomes
 
 An organisation implementing this framework should be able to answer:
 
@@ -479,9 +500,9 @@ An organisation implementing this framework should be able to answer:
 * How are AI incidents managed?
 * How can compliance be demonstrated?
 
-⸻
+---
 
-17. Portfolio Roadmap
+## 17. Portfolio Roadmap
 
 This project forms part of a broader Cloud, Cybersecurity and AI Architecture portfolio.
 
@@ -497,7 +518,7 @@ Together these projects demonstrate the progression from:
 
 Governance → Risk → Architecture → Security → Controls → Automation → Assurance
 
-⸻
+---
 
 Disclaimer
 

@@ -1,6 +1,6 @@
-AI Governance Operating Model
+# AI Governance Operating Model
 
-1. Purpose
+## 1. Purpose
 
 This document defines how Artificial Intelligence governance operates across Austera Transport Group (ATG).
 
@@ -19,9 +19,9 @@ The operating model translates enterprise AI principles and governance requireme
 
 The objective is to ensure that AI governance is integrated into existing enterprise governance rather than operating as an isolated compliance function.
 
-⸻
+---
 
-2. Operating Model Principles
+## 2. Operating Model Principles
 
 The operating model follows six principles.
 
@@ -49,9 +49,9 @@ Continuous Governance
 
 Governance continues after production deployment through monitoring, reassessment and assurance.
 
-⸻
+---
 
-3. Governance Structure
+## 3. Governance Structure
 
 ### AI Governance Operating Model and Assurance Structure
 
@@ -88,9 +88,9 @@ flowchart TD
 
 This model provides both executive oversight and operational decision-making.
 
-⸻
+---
 
-4. Board / Executive Leadership
+## 4. Board / Executive Leadership
 
 Role
 
@@ -119,9 +119,9 @@ Executive approval is required where:
 * AI introduces material enterprise risk
 * Critical AI control exceptions require acceptance
 
-⸻
+---
 
-5. Executive Risk Committee
+## 5. Executive Risk Committee
 
 The Executive Risk Committee provides enterprise-level risk oversight.
 
@@ -136,9 +136,9 @@ Responsibilities
 
 The committee provides a bridge between operational AI governance and enterprise risk management.
 
-⸻
+---
 
-6. AI Governance Committee
+## 6. AI Governance Committee
 
 The AI Governance Committee (AIGC) is the primary enterprise forum responsible for AI governance.
 
@@ -163,9 +163,9 @@ The committee may include:
 
 Subject-matter experts may attend depending on the use case.
 
-⸻
+---
 
-7. AI Governance Committee Responsibilities
+## 7. AI Governance Committee Responsibilities
 
 The AIGC is responsible for:
 
@@ -181,9 +181,9 @@ The AIGC is responsible for:
 * Reviewing governance metrics
 * Sponsoring improvements to AI governance
 
-⸻
+---
 
-8. Architecture Review Function
+## 8. Architecture Review Function
 
 Enterprise Architecture provides design assurance for AI systems.
 
@@ -206,9 +206,9 @@ Architecture review considers:
 
 Architecture approval does not replace security, privacy or risk approval.
 
-⸻
+---
 
-9. Cybersecurity Function
+## 9. Cybersecurity Function
 
 Cybersecurity establishes and assures security requirements for AI systems.
 
@@ -232,9 +232,9 @@ Cybersecurity review includes:
 
 Tier 3 and Tier 4 AI systems require formal cybersecurity review.
 
-⸻
+---
 
-10. Data Governance Function
+## 10. Data Governance Function
 
 Data Governance ensures information used by AI systems remains appropriately governed.
 
@@ -252,9 +252,9 @@ Responsibilities
 
 AI approval does not override existing enterprise data-governance requirements.
 
-⸻
+---
 
-11. Privacy Function
+## 11. Privacy Function
 
 Privacy provides assurance where AI systems process personal or sensitive information.
 
@@ -275,9 +275,9 @@ Privacy assessment considers:
 
 Privacy Impact Assessments are required where applicable.
 
-⸻
+---
 
-12. Business Owner
+## 12. Business Owner
 
 Every AI use case must have an accountable Business Owner.
 
@@ -294,9 +294,9 @@ The Business Owner is accountable for:
 
 AI ownership cannot be delegated to the technology itself.
 
-⸻
+---
 
-13. Technology Owner
+## 13. Technology Owner
 
 The Technology Owner is responsible for the technical lifecycle of the AI solution.
 
@@ -312,9 +312,9 @@ Responsibilities include:
 * Lifecycle management
 * Retirement
 
-⸻
+---
 
-14. AI Delivery Teams
+## 14. AI Delivery Teams
 
 AI Delivery Teams design, build and operate AI solutions within approved enterprise guardrails.
 
@@ -330,9 +330,9 @@ They are responsible for:
 
 Delivery teams own implementation but do not independently accept material enterprise risk.
 
-⸻
+---
 
-15. Decision Rights
+## 15. Decision Rights
 
 ### AI Risk Tier Approval Matrix
 
@@ -345,9 +345,9 @@ Delivery teams own implementation but do not independently accept material enter
 
 This prevents low-risk experimentation from becoming unnecessarily bureaucratic while ensuring high-impact AI receives appropriate scrutiny.
 
-⸻
+---
 
-16. Governance Pathway
+## 16. Governance Pathway
 
 ### AI Risk-Based Governance Approval Workflow
 
@@ -373,9 +373,9 @@ flowchart TD
     K --> L
 ```
 
-⸻
+---
 
-17. Governance Decisions
+## 17. Governance Decisions
 
 Governance forums may make four primary decisions.
 
@@ -401,9 +401,9 @@ Rejected
 
 The initiative presents unacceptable risk or conflicts with organisational requirements.
 
-⸻
+---
 
-18. Risk Acceptance
+## 18. Risk Acceptance
 
 Risk acceptance must occur at an appropriate level of authority.
 
@@ -421,9 +421,9 @@ Risk acceptance must document:
 
 Risk acceptance must be time-bound.
 
-⸻
+---
 
-19. Exception Management
+## 19. Exception Management
 
 Exceptions are required when mandatory controls cannot be implemented.
 
@@ -440,9 +440,9 @@ Each exception records:
 
 Expired exceptions must be reassessed.
 
-⸻
+---
 
-20. Escalation Model
+## 20. Escalation Model
 
 Issues are escalated according to materiality.
 
@@ -466,9 +466,9 @@ Examples requiring escalation include:
 * Material control exceptions
 * Significant AI incidents
 
-⸻
+---
 
-21. Three Lines Model
+## 21. Three Lines Model
 
 First Line — Business and Technology
 
@@ -482,7 +482,7 @@ Examples:
 * Application teams
 * Cloud/platform teams
 
-⸻
+---
 
 Second Line — Governance and Oversight
 
@@ -497,7 +497,7 @@ Examples:
 * Enterprise Architecture
 * Compliance
 
-⸻
+---
 
 Third Line — Independent Assurance
 
@@ -509,9 +509,9 @@ Examples:
 * External Audit
 * Independent assurance providers
 
-⸻
+---
 
-22. Governance Cadence
+## 22. Governance Cadence
 
 Governance operates at different frequencies.
 
@@ -531,9 +531,9 @@ Governance operates at different frequencies.
 
 Cadence should be adjusted according to organisational scale and risk.
 
-⸻
+---
 
-23. Management Reporting
+## 23. Management Reporting
 
 The AI Governance Committee receives reporting covering:
 
@@ -551,9 +551,9 @@ The AI Governance Committee receives reporting covering:
 
 These measures allow governance effectiveness and organisational AI exposure to be monitored.
 
-⸻
+---
 
-24. Integration with Existing Governance
+## 24. Integration with Existing Governance
 
 AI governance should integrate with existing enterprise processes.
 
@@ -579,9 +579,9 @@ The objective is not to create a parallel governance organisation solely for AI.
 
 Instead, existing governance capabilities are extended to address AI-specific risks.
 
-⸻
+---
 
-25. Target Operating Outcome
+## 25. Target Operating Outcome
 
 The operating model enables ATG to make consistent decisions about AI while maintaining appropriate governance.
 
@@ -599,7 +599,7 @@ Executive oversight for material AI risk.
 
 Continuous governance throughout the AI lifecycle.
 
-⸻
+---
 
 Related Artefacts
 
@@ -613,7 +613,7 @@ Related Artefacts
 * AI Vendor Assessment
 * AI Monitoring Framework
 
-⸻
+---
 
 Disclaimer
 

@@ -1,6 +1,6 @@
-Enterprise AI Risk Assessment
+# Enterprise AI Risk Assessment
 
-1. Purpose
+## 1. Purpose
 
 This assessment is used to identify, analyse and document risks associated with Artificial Intelligence use cases across Austera Transport Group (ATG).
 
@@ -18,37 +18,38 @@ It supports:
 
 The assessment should be completed before production approval and reassessed following material changes to the AI system.
 
-⸻
+---
 
-2. Assessment Information
+## 2. Assessment Information
 
-Field	Response
-AI Use Case	
-Business Owner	
-Technology Owner	
-Solution / Product Name	
-Business Unit	
-AI Provider	
-Model / Service	
-Assessment Date	
-Assessor	
-Initial Risk Tier	
-Target Production Date	
-Next Review Date	
+| Field | Response |
+| --- | --- |
+| AI Use Case |  |
+| Business Owner |  |
+| Technology Owner |  |
+| Solution / Product Name |  |
+| Business Unit |  |
+| AI Provider |  |
+| Model / Service |  |
+| Assessment Date |  |
+| Assessor |  |
+| Initial Risk Tier |  |
+| Target Production Date |  |
+| Next Review Date |  |
 
-⸻
+---
 
-3. Business Context
+## 3. Business Context
 
-3.1 What business problem is the AI system intended to solve?
+### 3.1 What business problem is the AI system intended to solve?
 
 Document the business objective and expected outcome.
 
 Response:
 
-⸻
+---
 
-3.2 Who will use the system?
+### 3.2 Who will use the system?
 
 Examples:
 
@@ -61,9 +62,9 @@ Examples:
 
 Response:
 
-⸻
+---
 
-3.3 What happens if the AI produces an incorrect result?
+### 3.3 What happens if the AI produces an incorrect result?
 
 Consider:
 
@@ -76,19 +77,19 @@ Consider:
 
 Response:
 
-⸻
+---
 
-3.4 Is AI necessary for this use case?
+### 3.4 Is AI necessary for this use case?
 
 Could the business objective reasonably be achieved using conventional automation, search, analytics or deterministic rules?
 
 Response:
 
-⸻
+---
 
-4. AI Capability
+## 4. AI Capability
 
-4.1 What type of AI capability is being used?
+### 4.1 What type of AI capability is being used?
 
 Select all that apply:
 
@@ -106,9 +107,9 @@ Select all that apply:
 
 Details:
 
-⸻
+---
 
-4.2 Which model or AI service is being used?
+### 4.2 Which model or AI service is being used?
 
 Document:
 
@@ -120,9 +121,9 @@ Document:
 
 Response:
 
-⸻
+---
 
-4.3 Can the AI initiate actions?
+### 4.3 Can the AI initiate actions?
 
 * No — information generation only
 * Recommendations only
@@ -132,11 +133,11 @@ Response:
 
 Details:
 
-⸻
+---
 
-5. Data Assessment
+## 5. Data Assessment
 
-5.1 What information will the AI process?
+### 5.1 What information will the AI process?
 
 Select all that apply:
 
@@ -151,9 +152,9 @@ Select all that apply:
 * Critical infrastructure information
 * Credentials / secrets
 
-⸻
+---
 
-5.2 Where does the data originate?
+### 5.2 Where does the data originate?
 
 Examples:
 
@@ -169,9 +170,9 @@ Examples:
 
 Response:
 
-⸻
+---
 
-5.3 Is organisational information used to train or fine-tune the model?
+### 5.3 Is organisational information used to train or fine-tune the model?
 
 * No
 * Yes
@@ -179,9 +180,9 @@ Response:
 
 If yes, explain:
 
-⸻
+---
 
-5.4 Is Retrieval-Augmented Generation used?
+### 5.4 Is Retrieval-Augmented Generation used?
 
 * No
 * Yes
@@ -195,9 +196,9 @@ If yes, document:
 * Document-level permissions
 * Data refresh process
 
-⸻
+---
 
-5.5 Can the AI retrieve information a user would not otherwise be authorised to access?
+### 5.5 Can the AI retrieve information a user would not otherwise be authorised to access?
 
 * No
 * Yes
@@ -205,33 +206,33 @@ If yes, document:
 
 If yes or unknown, remediation is required before production.
 
-⸻
+---
 
-6. Privacy Assessment
+## 6. Privacy Assessment
 
-6.1 Does the AI process personal information?
+### 6.1 Does the AI process personal information?
 
 * No
 * Yes
 
-6.2 Does the AI infer information about individuals?
+### 6.2 Does the AI infer information about individuals?
 
 * No
 * Yes
 * Unknown
 
-6.3 Is personal information sent to an external AI provider?
+### 6.3 Is personal information sent to an external AI provider?
 
 * No
 * Yes
 
-6.4 Is a Privacy Impact Assessment required?
+### 6.4 Is a Privacy Impact Assessment required?
 
 * No
 * Yes
 * To be determined by Privacy
 
-6.5 Are users informed about relevant AI processing?
+### 6.5 Are users informed about relevant AI processing?
 
 * Yes
 * No
@@ -239,11 +240,11 @@ If yes or unknown, remediation is required before production.
 
 Privacy observations:
 
-⸻
+---
 
-7. Identity and Access Management
+## 7. Identity and Access Management
 
-7.1 How do users authenticate?
+### 7.1 How do users authenticate?
 
 Examples:
 
@@ -256,17 +257,17 @@ Examples:
 
 Response:
 
-⸻
+---
 
-7.2 Is MFA enforced where appropriate?
+### 7.2 Is MFA enforced where appropriate?
 
 * Yes
 * No
 * Not applicable
 
-⸻
+---
 
-7.3 How is authorisation implemented?
+### 7.3 How is authorisation implemented?
 
 Examples:
 
@@ -277,30 +278,30 @@ Examples:
 
 Response:
 
-⸻
+---
 
-7.4 Does the AI system have privileged access?
+### 7.4 Does the AI system have privileged access?
 
 * No
 * Yes
 
 If yes, document justification and controls:
 
-⸻
+---
 
-7.5 Are machine identities and secrets securely managed?
+### 7.5 Are machine identities and secrets securely managed?
 
 * Yes
 * No
 * Not applicable
 
-⸻
+---
 
-8. AI Agent Assessment
+## 8. AI Agent Assessment
 
 Complete this section where AI agents are used.
 
-8.1 What tools can the agent invoke?
+### 8.1 What tools can the agent invoke?
 
 Examples:
 
@@ -314,45 +315,45 @@ Examples:
 
 Response:
 
-⸻
+---
 
-8.2 Can the agent modify enterprise information?
-
-* No
-* Yes
-
-⸻
-
-8.3 Can the agent execute transactions?
+### 8.2 Can the agent modify enterprise information?
 
 * No
 * Yes
 
-⸻
+---
 
-8.4 Can the agent create, modify or delete cloud resources?
+### 8.3 Can the agent execute transactions?
 
 * No
 * Yes
 
-⸻
+---
 
-8.5 Are sensitive actions subject to human approval?
+### 8.4 Can the agent create, modify or delete cloud resources?
+
+* No
+* Yes
+
+---
+
+### 8.5 Are sensitive actions subject to human approval?
 
 * Yes
 * No
 * Not applicable
 
-⸻
+---
 
-8.6 Is agent access based on least privilege?
+### 8.6 Is agent access based on least privilege?
 
 * Yes
 * No
 
-⸻
+---
 
-9. Cybersecurity Assessment
+## 9. Cybersecurity Assessment
 
 Assess exposure to:
 
@@ -374,33 +375,33 @@ Assess exposure to:
 
 Security observations:
 
-⸻
+---
 
-10. Network and Integration Security
+## 10. Network and Integration Security
 
-10.1 Is the AI system publicly accessible?
+### 10.1 Is the AI system publicly accessible?
 
 * No
 * Yes
 
-10.2 Are backend services privately accessible where appropriate?
-
-* Yes
-* No
-* Not applicable
-
-10.3 Are APIs authenticated and authorised?
+### 10.2 Are backend services privately accessible where appropriate?
 
 * Yes
 * No
 * Not applicable
 
-10.4 Is traffic encrypted?
+### 10.3 Are APIs authenticated and authorised?
+
+* Yes
+* No
+* Not applicable
+
+### 10.4 Is traffic encrypted?
 
 * Yes
 * No
 
-10.5 Are external integrations controlled through approved gateways?
+### 10.5 Are external integrations controlled through approved gateways?
 
 * Yes
 * No
@@ -408,93 +409,94 @@ Security observations:
 
 Architecture observations:
 
-⸻
+---
 
-11. Model and Prompt Security
+## 11. Model and Prompt Security
 
-11.1 Are system prompts protected from unauthorised modification?
-
-* Yes
-* No
-* Not applicable
-
-11.2 Are controls implemented against prompt injection?
-
-* Yes
-* No
-
-11.3 Are model inputs validated?
-
-* Yes
-* No
-
-11.4 Are model outputs validated before downstream use?
-
-* Yes
-* No
-
-11.5 Are content-safety controls implemented where appropriate?
+### 11.1 Are system prompts protected from unauthorised modification?
 
 * Yes
 * No
 * Not applicable
 
-⸻
-
-12. Human Oversight
-
-12.1 Does AI influence significant decisions?
-
-* No
-* Yes
-
-12.2 Is human review required before material actions?
-
-* Yes
-* No
-* Not applicable
-
-12.3 Can a human override the AI?
+### 11.2 Are controls implemented against prompt injection?
 
 * Yes
 * No
 
-12.4 Is responsibility for final decisions clearly defined?
+### 11.3 Are model inputs validated?
 
 * Yes
 * No
 
-12.5 Are users informed of AI limitations?
+### 11.4 Are model outputs validated before downstream use?
+
+* Yes
+* No
+
+### 11.5 Are content-safety controls implemented where appropriate?
 
 * Yes
 * No
 * Not applicable
 
-⸻
+---
 
-13. Third-Party AI Assessment
+## 12. Human Oversight
+
+### 12.1 Does AI influence significant decisions?
+
+* No
+* Yes
+
+### 12.2 Is human review required before material actions?
+
+* Yes
+* No
+* Not applicable
+
+### 12.3 Can a human override the AI?
+
+* Yes
+* No
+
+### 12.4 Is responsibility for final decisions clearly defined?
+
+* Yes
+* No
+
+### 12.5 Are users informed of AI limitations?
+
+* Yes
+* No
+* Not applicable
+
+---
+
+## 13. Third-Party AI Assessment
 
 Where an external AI provider is used, assess:
 
-Question	Yes	No	Unknown
-Enterprise data ownership defined?			
-Provider prevented from training on enterprise data where required?			
-Data residency understood?			
-Retention understood?			
-Data deletion supported?			
-Encryption implemented?			
-Identity integration supported?			
-Security certifications reviewed?			
-Sub-processors identified?			
-Incident notification defined?			
-Service availability requirements defined?			
-Exit strategy established?			
+| Question | Yes | No | Unknown |
+| --- | --- | --- | --- |
+| Enterprise data ownership defined? |  |  |  |
+| Provider prevented from training on enterprise data where required? |  |  |  |
+| Data residency understood? |  |  |  |
+| Retention understood? |  |  |  |
+| Data deletion supported? |  |  |  |
+| Encryption implemented? |  |  |  |
+| Identity integration supported? |  |  |  |
+| Security certifications reviewed? |  |  |  |
+| Sub-processors identified? |  |  |  |
+| Incident notification defined? |  |  |  |
+| Service availability requirements defined? |  |  |  |
+| Exit strategy established? |  |  |  |
 
 Vendor observations:
 
-⸻
+---
 
-14. Logging and Monitoring
+## 14. Logging and Monitoring
 
 Determine whether the solution records appropriate:
 
@@ -513,67 +515,67 @@ Determine whether the solution records appropriate:
 
 Logs must be protected according to their information sensitivity.
 
-⸻
+---
 
-15. Model and Operational Monitoring
+## 15. Model and Operational Monitoring
 
-15.1 Is model behaviour monitored?
-
-* Yes
-* No
-
-15.2 Is model performance monitored?
+### 15.1 Is model behaviour monitored?
 
 * Yes
 * No
 
-15.3 Is model drift relevant?
+### 15.2 Is model performance monitored?
 
 * Yes
 * No
 
-15.4 Are abnormal AI behaviours detectable?
+### 15.3 Is model drift relevant?
 
 * Yes
 * No
 
-15.5 Are security events integrated with enterprise monitoring?
+### 15.4 Are abnormal AI behaviours detectable?
 
 * Yes
 * No
 
-⸻
+### 15.5 Are security events integrated with enterprise monitoring?
 
-16. Resilience and Failure
+* Yes
+* No
 
-16.1 What happens if the AI service becomes unavailable?
+---
+
+## 16. Resilience and Failure
+
+### 16.1 What happens if the AI service becomes unavailable?
 
 Response:
 
-⸻
+---
 
-16.2 Is there a manual or deterministic fallback?
+### 16.2 Is there a manual or deterministic fallback?
 
 * Yes
 * No
 * Not required
 
-⸻
+---
 
-16.3 What happens if the model produces incorrect information?
+### 16.3 What happens if the model produces incorrect information?
 
 Response:
 
-⸻
+---
 
-16.4 Can the AI capability be disabled without disrupting unrelated services?
+### 16.4 Can the AI capability be disabled without disrupting unrelated services?
 
 * Yes
 * No
 
-⸻
+---
 
-17. Regulatory and Compliance Assessment
+## 17. Regulatory and Compliance Assessment
 
 Identify applicable obligations.
 
@@ -591,27 +593,28 @@ Potential considerations include:
 
 Applicable requirements:
 
-⸻
+---
 
-18. Risk Dimension Scoring
+## 18. Risk Dimension Scoring
 
 Following assessment, score each risk dimension.
 
-Risk Dimension	Score 1–4	Rationale
-Data Sensitivity		
-Decision Impact		
-AI Autonomy		
-Cybersecurity Exposure		
-Privacy Impact		
-Safety / Operational Impact		
-Regulatory Impact		
-External Exposure		
-Third-Party Dependency		
-Total Inherent Risk Score		
+| Risk Dimension | Score 1–4 | Rationale |
+| --- | --- | --- |
+| Data Sensitivity |  |  |
+| Decision Impact |  |  |
+| AI Autonomy |  |  |
+| Cybersecurity Exposure |  |  |
+| Privacy Impact |  |  |
+| Safety / Operational Impact |  |  |
+| Regulatory Impact |  |  |
+| External Exposure |  |  |
+| Third-Party Dependency |  |  |
+| Total Inherent Risk Score |  |  |
 
-⸻
+---
 
-19. Risk Elevation Check
+## 19. Risk Elevation Check
 
 Does the system:
 
@@ -626,32 +629,35 @@ Does the system:
 
 If Yes to any item, enhanced governance review is required regardless of numerical score.
 
-⸻
+---
 
-20. Identified Risks
+## 20. Identified Risks
 
-ID	Risk	Impact	Likelihood	Inherent Rating	Owner
-AI-R01					
-AI-R02					
-AI-R03					
+| ID | Risk | Impact | Likelihood | Inherent Rating | Owner |
+| --- | --- | --- | --- | --- | --- |
+| AI-R01 |  |  |  |  |  |
+| AI-R02 |  |  |  |  |  |
+| AI-R03 |  |  |  |  |  |
 
-⸻
+---
 
-21. Required Controls
+## 21. Required Controls
 
-Control ID	Required Control	Control Owner	Status	Evidence
-AI-C01				
-AI-C02				
-AI-C03				
+| Control ID | Required Control | Control Owner | Status | Evidence |
+| --- | --- | --- | --- | --- |
+| AI-C01 |  |  |  |  |
+| AI-C02 |  |  |  |  |
+| AI-C03 |  |  |  |  |
 
-⸻
+---
 
-22. Residual Risk Assessment
+## 22. Residual Risk Assessment
 
 Following implementation and assurance of controls:
 
-Risk ID	Inherent Risk	Controls	Residual Risk	Risk Owner	Decision
-					
+| Risk ID | Inherent Risk | Controls | Residual Risk | Risk Owner | Decision |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
 
 Possible decisions:
 
@@ -660,9 +666,9 @@ Possible decisions:
 * Escalate
 * Reject
 
-⸻
+---
 
-23. Governance Recommendation
+## 23. Governance Recommendation
 
 Final Risk Tier
 
@@ -678,25 +684,26 @@ Recommendation
 
 Conditions / Required Actions
 
-⸻
+---
 
-24. Approval Record
+## 24. Approval Record
 
-Role	Name	Decision	Date
-Business Owner			
-Enterprise Architecture			
-Cybersecurity			
-Data Governance			
-Privacy			
-Enterprise Risk			
-AI Governance Committee			
-Executive Risk Authority			
+| Role | Name | Decision | Date |
+| --- | --- | --- | --- |
+| Business Owner |  |  |  |
+| Enterprise Architecture |  |  |  |
+| Cybersecurity |  |  |  |
+| Data Governance |  |  |  |
+| Privacy |  |  |  |
+| Enterprise Risk |  |  |  |
+| AI Governance Committee |  |  |  |
+| Executive Risk Authority |  |  |  |
 
 Only roles required by the applicable AI risk tier need to provide approval.
 
-⸻
+---
 
-25. Reassessment Triggers
+## 25. Reassessment Triggers
 
 This assessment must be reviewed following material changes including:
 
@@ -713,37 +720,23 @@ This assessment must be reviewed following material changes including:
 * New regulatory obligation
 * Material change in business purpose
 
-⸻
+---
 
-26. Assessment Outcome
+## 26. Assessment Outcome
 
 The assessment process follows:
 
-Business Use Case
-       |
-       v
-AI Capability Assessment
-       |
-       v
-Data / Privacy / Security Assessment
-       |
-       v
-Risk Dimension Scoring
-       |
-       v
-Inherent Risk
-       |
-       v
-Control Selection
-       |
-       v
-Control Implementation & Assurance
-       |
-       v
-Residual Risk
-       |
-       v
-Governance Decision
+```mermaid
+flowchart TD
+    A["Business Use Case"] --> B["AI Capability Assessment"]
+    B --> C["Data / Privacy / Security Assessment"]
+    C --> D["Risk Dimension Scoring"]
+    D --> E["Inherent Risk"]
+    E --> F["Control Selection"]
+    F --> G["Control Implementation and Assurance"]
+    G --> H["Residual Risk"]
+    H --> I["Governance Decision"]
+```
 
 The objective is not to eliminate all AI risk.
 
@@ -751,9 +744,9 @@ The objective is to ensure AI risk is:
 
 Known → Assessed → Controlled → Owned → Accepted → Monitored
 
-⸻
+---
 
-Disclaimer
+## Disclaimer
 
 Austera Transport Group (ATG) is a fictional organisation created solely for this reference architecture and professional portfolio project.
 
