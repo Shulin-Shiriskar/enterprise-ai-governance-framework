@@ -549,27 +549,23 @@ These measures allow governance effectiveness and organisational AI exposure to 
 
 AI governance should integrate with existing enterprise processes.
 
-AI Governance
-     |
-     +---- Enterprise Architecture
-     |
-     +---- Cybersecurity Governance
-     |
-     +---- Enterprise Risk Management
-     |
-     +---- Privacy
-     |
-     +---- Data Governance
-     |
-     +---- Procurement
-     |
-     +---- Vendor Risk
-     |
-     +---- Change Management
-     |
-     +---- Incident Management
-     |
-     +---- Internal Audit
+### AI Governance Integration Model
+
+```mermaid
+flowchart TD
+    A["AI Governance"]
+
+    A --> B["Enterprise Architecture"]
+    A --> C["Cybersecurity Governance"]
+    A --> D["Enterprise Risk Management"]
+    A --> E["Privacy"]
+    A --> F["Data Governance"]
+    A --> G["Procurement"]
+    A --> H["Vendor Risk"]
+    A --> I["Change Management"]
+    A --> J["Incident Management"]
+    A --> K["Internal Audit"]
+```
 
 The objective is not to create a parallel governance organisation solely for AI.
 
