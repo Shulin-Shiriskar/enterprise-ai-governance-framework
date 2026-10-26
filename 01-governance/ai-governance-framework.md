@@ -515,17 +515,33 @@ The AI Governance Committee should receive regular reporting.
 
 Example metrics include:
 
-Metric	Purpose
-Total registered AI systems	Enterprise visibility
-AI systems by risk tier	Risk exposure
-Unapproved AI systems identified	Shadow AI
-Open AI risks	Risk management
-Outstanding control exceptions	Governance compliance
-AI security incidents	Security posture
-AI systems overdue for reassessment	Lifecycle compliance
-Third-party AI providers	Supply-chain exposure
-High-risk AI systems	Executive visibility
-AI systems with sensitive data	Data exposure
+### AI Governance Metrics and Reporting
+
+The following metrics provide executive leadership and the AI Governance Committee with visibility into enterprise AI adoption, risk exposure, security and compliance.
+
+| Metric | Purpose |
+
+|---|---|
+
+| Total registered AI systems | Enterprise visibility |
+
+| AI systems by risk tier | Risk exposure |
+
+| Unapproved AI systems identified | Shadow AI detection |
+
+| Open AI risks | Risk management |
+
+| Outstanding control exceptions | Governance compliance |
+
+| AI security incidents | Security posture |
+
+| AI systems overdue for reassessment | Lifecycle compliance |
+
+| Third-party AI providers | Supply-chain exposure |
+
+| High-risk AI systems | Executive visibility |
+
+| AI systems with sensitive data | Data exposure |
 
 ⸻
 
