@@ -438,19 +438,15 @@ Expired exceptions must be reassessed.
 
 Issues are escalated according to materiality.
 
-AI Delivery Team
-       |
-       v
-Architecture / Security / Data / Privacy
-       |
-       v
-AI Governance Committee
-       |
-       v
-Executive Risk Committee
-       |
-       v
-Board / Executive Leadership
+### AI Governance Escalation Hierarchy
+
+```mermaid
+flowchart TD
+    A["AI Delivery Team"] --> B["Architecture / Security / Data / Privacy"]
+    B --> C["AI Governance Committee"]
+    C --> D["Executive Risk Committee"]
+    D --> E["Board / Executive Leadership"]
+```
 
 Examples requiring escalation include:
 
