@@ -507,16 +507,19 @@ Examples:
 
 Governance operates at different frequencies.
 
-Activity	Indicative Cadence
-AI use-case assessment	As required
-Architecture/security review	Per project/change
-AI Governance Committee	Monthly
-High-risk AI review	Quarterly
-AI risk reporting	Quarterly
-AI inventory review	Quarterly
-Control exception review	Quarterly
-Framework review	Annually
-Critical incident review	Event driven
+### AI Governance Activities and Review Cadence
+
+| Activity | Indicative Cadence |
+|---|---|
+| AI use-case assessment | As required |
+| Architecture/security review | Per project or material change |
+| AI Governance Committee | Monthly |
+| High-risk AI review | Quarterly |
+| AI risk reporting | Quarterly |
+| AI inventory review | Quarterly |
+| Control exception review | Quarterly |
+| Framework review | Annually |
+| Critical incident review | Event-driven |
 
 Cadence should be adjusted according to organisational scale and risk.
 
