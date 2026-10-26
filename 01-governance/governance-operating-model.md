@@ -341,42 +341,29 @@ This prevents low-risk experimentation from becoming unnecessarily bureaucratic 
 
 16. Governance Pathway
 
-AI Use Case
-     |
-     v
-AI Registration
-     |
-     v
-Risk Classification
-     |
-     +---------------- Tier 1 ----------------+
-     |                                        |
-     |                                Streamlined Approval
-     |
-     +---------------- Tier 2 ----------------+
-     |                                        |
-     |                              Architecture Review
-     |
-     +---------------- Tier 3 ----------------+
-     |                                        |
-     |                           Architecture / Security
-     |                           Data / Privacy / Risk
-     |                                        |
-     |                                        v
-     |                              AI Governance Committee
-     |
-     +---------------- Tier 4 ----------------+
-                                              |
-                                   Enhanced Assessments
-                                              |
-                                              v
-                                   AI Governance Committee
-                                              |
-                                              v
-                                   Independent Assurance
-                                              |
-                                              v
-                                   Executive Risk Authority
+### AI Risk-Based Governance Approval Workflow
+
+```mermaid
+flowchart TD
+    A["AI Use Case"] --> B["AI Registration"]
+    B --> C["Risk Classification"]
+
+    C -->|"Tier 1 - Minimal"| D["Streamlined Approval"]
+    C -->|"Tier 2 - Limited"| E["Architecture Review"]
+    C -->|"Tier 3 - High"| F["Architecture / Security / Data / Privacy / Risk Review"]
+    C -->|"Tier 4 - Critical"| G["Enhanced Assessments"]
+
+    F --> H["AI Governance Committee"]
+
+    G --> I["AI Governance Committee"]
+    I --> J["Independent Assurance"]
+    J --> K["Executive Risk Authority"]
+
+    D --> L["Approved for Next Lifecycle Stage"]
+    E --> L
+    H --> L
+    K --> L
+```
 
 ⸻
 
