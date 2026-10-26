@@ -80,33 +80,52 @@ AI systems must remain subject to monitoring and periodic reassessment throughou
 AI governance operates through multiple levels of organisational accountability.
 
 flowchart TD
+
     A["Board / Executive Leadership"]
+
     B["AI Governance Committee"]
+
     C["Enterprise Architecture"]
+
     D["Cybersecurity"]
+
     E["Enterprise Risk"]
+
     F["Privacy"]
+
     G["Data Governance"]
+
     H["AI Delivery Teams"]
 
     A --> B
 
     B --> C
+
     B --> D
+
     B --> E
+
     B --> F
+
     B --> G
 
     C --> H
+
     D --> H
+
     E --> H
+
     F --> H
+
     G --> H
 
     style A fill:#17365D,color:#fff,stroke:#17365D
+
     style B fill:#2874A6,color:#fff,stroke:#2874A6
+
     style H fill:#117A65,color:#fff,stroke:#117A65
 
+ 
 ⸻
 
 5. AI Governance Committee
