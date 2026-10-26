@@ -236,40 +236,35 @@ Tier 4 AI systems may additionally require independent assurance before producti
 
 AI initiatives progress through formal governance gates.
 
-AI Idea
-   |
-   v
-Use-Case Registration
-   |
-   v
-Risk Classification
-   |
-   v
-Risk / Privacy / Data Assessment
-   |
-   v
-Architecture & Security Review
-   |
-   v
-Governance Decision
-   |
-   v
-Build / Configure
-   |
-   v
-Pre-Production Assurance
-   |
-   v
-Production
-   |
-   v
-Continuous Monitoring
-   |
-   v
-Periodic Reassessment
-   |
-   v
-Retirement
+### AI Governance Lifecycle
+
+```mermaid
+
+flowchart TD
+
+    A["AI Idea"] --> B["Use-Case Registration"]
+
+    B --> C["Risk Classification"]
+
+    C --> D["Risk / Privacy / Data Assessment"]
+
+    D --> E["Architecture & Security Review"]
+
+    E --> F["Governance Decision"]
+
+    F --> G["Build / Configure"]
+
+    G --> H["Pre-Production Assurance"]
+
+    H --> I["Production"]
+
+    I --> J["Continuous Monitoring"]
+
+    J --> K["Periodic Reassessment"]
+
+    K --> L["Retirement"]
+
+```
 
 ⸻
 
