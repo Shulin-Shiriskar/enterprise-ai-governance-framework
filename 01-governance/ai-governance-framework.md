@@ -551,18 +551,19 @@ Issues must be escalated when:
 * Regulatory obligations are unclear
 * Material AI incidents occur
 
-Escalation follows:
+###** AI Governance Escalation Path**
 
-Delivery Team
-     |
-     v
-Architecture / Security / Risk
-     |
-     v
-AI Governance Committee
-     |
-     v
-Executive Risk Authority
+```mermaid
+
+flowchart TD
+
+    A["Delivery Team"] --> B["Architecture / Security / Risk"]
+
+    B --> C["AI Governance Committee"]
+
+    C --> D["Executive Risk Authority"]
+
+```
 
 ⸻
 
