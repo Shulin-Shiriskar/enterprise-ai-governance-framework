@@ -551,7 +551,7 @@ Issues must be escalated when:
 * Regulatory obligations are unclear
 * Material AI incidents occur
 
-###** AI Governance Escalation Path**
+### AI Governance Escalation Path
 
 ```mermaid
 
