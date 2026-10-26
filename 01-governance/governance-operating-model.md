@@ -326,13 +326,14 @@ Delivery teams own implementation but do not independently accept material enter
 
 15. Decision Rights
 
-AI decision authority is based on risk classification.
+### AI Risk Tier Approval Matrix
 
-Risk Tier	Primary Approval	Additional Assurance
-Tier 1 – Minimal	Business Owner	Automated/streamlined controls
-Tier 2 – Limited	Business + Architecture	Security/Data/Privacy as applicable
-Tier 3 – High	AI Governance Committee	Formal Architecture + Security + Risk review
-Tier 4 – Critical	Executive Risk Authority	AIGC + Independent Assurance
+| Risk Tier | Primary Approval | Additional Assurance |
+|---|---|---|
+| Tier 1 – Minimal | Business Owner | Automated/streamlined controls |
+| Tier 2 – Limited | Business Owner + Architecture | Security, Data and Privacy reviews as applicable |
+| Tier 3 – High | AI Governance Committee | Formal Architecture, Security and Risk review |
+| Tier 4 – Critical | Executive Risk Authority | AI Governance Committee (AIGC) review + Independent Assurance |
 
 This prevents low-risk experimentation from becoming unnecessarily bureaucratic while ensuring high-impact AI receives appropriate scrutiny.
 
