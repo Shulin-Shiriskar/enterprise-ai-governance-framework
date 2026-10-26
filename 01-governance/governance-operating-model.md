@@ -53,30 +53,38 @@ Governance continues after production deployment through monitoring, reassessmen
 
 3. Governance Structure
 
-                    Board / Executive Leadership
-                              |
-                              v
-                    Executive Risk Committee
-                              |
-                              v
-                    AI Governance Committee
-                              |
-           +------------------+------------------+
-           |                  |                  |
-           v                  v                  v
-   Architecture Review   Cyber Security     Data & Privacy
-        Function            Function           Functions
-           |                  |                  |
-           +------------------+------------------+
-                              |
-                              v
-                       AI Delivery Teams
-                              |
-                              v
-                     Operational Monitoring
-                              |
-                              v
-                      Independent Assurance
+### AI Governance Operating Model and Assurance Structure
+
+```mermaid
+flowchart TD
+    A["Board / Executive Leadership"]
+    B["Executive Risk Committee"]
+    C["AI Governance Committee"]
+
+    D["Architecture Review Function"]
+    E["Cybersecurity Function"]
+    F["Data & Privacy Functions"]
+
+    G["AI Delivery Teams"]
+    H["Operational Monitoring"]
+    I["Independent Assurance"]
+
+    A --> B
+    B --> C
+
+    C --> D
+    C --> E
+    C --> F
+
+    D --> G
+    E --> G
+    F --> G
+
+    G --> H
+    H --> I
+
+    I -.->|"Independent Assurance Reporting"| B
+```
 
 This model provides both executive oversight and operational decision-making.
 
