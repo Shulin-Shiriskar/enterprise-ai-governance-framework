@@ -79,37 +79,23 @@ AI systems must remain subject to monitoring and periodic reassessment throughou
 
 AI governance operates through multiple levels of organisational accountability.
 
+```mermaid
+
 flowchart TD
 
-    A["Board / Executive Leadership"]
+    A["Board / Executive Leadership"] --> B["AI Governance Committee"]
 
-    B["AI Governance Committee"]
+    B --> C["Enterprise Architecture"]
 
-    C["Enterprise Architecture"]
+    B --> D["Cybersecurity"]
 
-    D["Cybersecurity"]
+    B --> E["Enterprise Risk"]
 
-    E["Enterprise Risk"]
+    B --> F["Privacy"]
 
-    F["Privacy"]
+    B --> G["Data Governance"]
 
-    G["Data Governance"]
-
-    H["AI Delivery Teams"]
-
-    A --> B
-
-    B --> C
-
-    B --> D
-
-    B --> E
-
-    B --> F
-
-    B --> G
-
-    C --> H
+    C --> H["AI Delivery Teams"]
 
     D --> H
 
@@ -119,12 +105,7 @@ flowchart TD
 
     G --> H
 
-    style A fill:#17365D,color:#fff,stroke:#17365D
-
-    style B fill:#2874A6,color:#fff,stroke:#2874A6
-
-    style H fill:#117A65,color:#fff,stroke:#117A65
-
+```
  
 ⸻
 
